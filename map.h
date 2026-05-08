@@ -12,6 +12,7 @@ class Map {
     public:
         Map();
         Location getLocation(int x, int y);
+        void setLocation(int x, int y, Location location);
 };
 
 #endif
