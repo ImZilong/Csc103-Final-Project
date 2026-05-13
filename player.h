@@ -21,6 +21,7 @@ class Player {
         int getLevel();
         int getAttack();
         int getCurrency();
+        vector<string> getInventory();
         void setCurrency(int amount);
         void addToInventory(string item);
 };

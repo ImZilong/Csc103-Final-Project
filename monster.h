@@ -17,6 +17,7 @@ class Monster {
         int getHealth();
         int getLevel();
         int getAttack();
+        void setHealth(int damage);
 };
 
 #endif
